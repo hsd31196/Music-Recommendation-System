@@ -4,10 +4,17 @@ We have used Million Playlist Dataset(MPD) provided in Challenge which contains 
 Each playlist in the MPD contains a playlist title, the track list (including track metadata) editing information (last edit time, 
 number of playlist edits) and other miscellaneous information about the playlist.
 # Preprocessing
-1.Run JsontoCsv.py
-# Algorithm
-1. Apache Spark MLlib's ALS Model 
+1.Run jsontocsv_restruct.py to convert json data to csv format with the required data for input to the algorithm.
+# Algorithm Files
+1. Apache Spark MLlib's ALS(Alternating Least Squares) Model 
 2. ALS model using Implicit API 
 # Evaluation Metric
 1.R-precision 
 2.NDCG 
+# Requirements
+Dask
+gcsfs
+Implicit-0.3.8
+Anaconda Distribution
+Scikit-learn
+Scipy
