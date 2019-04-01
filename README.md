@@ -12,10 +12,13 @@ number of playlist edits) and other miscellaneous information about the playlist
 1.R-precision   
 2.NDCG 
 # Requirements
-Python>=3.6
-Dask  
-gcsfs  
+Python>=3.6  
+pyarrow  
+Dask    
+gcsfs   
+Anaconda Distribution    
+Scikit-learn        
+SciPy   
 Implicit-0.3.8  
-Anaconda Distribution  
-Scikit-learn      
-SciPy    
+handyspark  
+pyspark  
