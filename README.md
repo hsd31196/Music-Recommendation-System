@@ -16,6 +16,6 @@ Python>=3.6
 Dask  
 gcsfs  
 Implicit-0.3.8  
-Anaconda Distribution
-Scikit-learn    
-SciPy  
+Anaconda Distribution  
+Scikit-learn      
+SciPy    
