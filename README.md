@@ -7,7 +7,7 @@ number of playlist edits) and other miscellaneous information about the playlist
 1.Run jsontocsv_restruct.py to convert json data to csv format.
 # Algorithm Files
 1. Apache Spark MLlib's ALS(Alternating Least Squares) Model 
-2. ALS model using Implicit API 
+2. Weighted Regularization Matrix Factorization(WRMF) model using Implicit API 
 # Evaluation Metric
 1.R-precision   
 2.NDCG 
